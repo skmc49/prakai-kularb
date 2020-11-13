@@ -1,0 +1,99 @@
+body {
+    margin : 0px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.nav-wrapper {
+    margin-right: 20px;
+    display : flex;
+    justify-content: space-between;
+    padding : 38px;
+}
+
+.left-side {
+    display : flex;
+}
+
+.right-side {
+    font-size: 1vw;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 30px;
+    font-size: 100%;
+}
+
+.nav-link-wrapper a{
+    height: 25px;
+    color: silver;
+    text-decoration: none;
+    transition : color 1s;
+}
+
+.nav-link-wrapper a:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black
+}
+
+.active-nav-link a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.titlecontainer {
+    background-color: whitesmoke;
+    text-align: center;
+}
+ 
+.heading {
+    color: black;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subheading {
+    color: lightslategrey;
+    font-size: 3vw;
+    width: 30%;
+    margin: auto;
+    border-top: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.subsubheading {
+    font-size: 2vw;
+}
+
+.itemdetail {
+    background-image: url("images/longbuilding.png");
+    height: 1000px; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    opacity: 0.2;
+}
+
+.hyperlink a{
+    margin-top: 20px;
+    color:lightslategrey;
+    font-size: 20px;
+}
+
+.item {
+    background-color : white;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    width : 40%;
+    height: 500px;
+    background-position: top;
+}
